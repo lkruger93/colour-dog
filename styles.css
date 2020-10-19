@@ -1,0 +1,25 @@
+body {
+  background-color: midnightblue;
+}
+
+
+.interesting {
+  fill: darkcyan;
+
+}
+
+.wow {
+  fill: darkorchid;
+  stroke: indianred;
+}
+
+@media (max-width: 600px) {
+  .interesting {
+    fill: crimson;
+  }
+
+  .wow {
+    fill: orchid;
+    stroke: aquamarine;
+  }
+}
